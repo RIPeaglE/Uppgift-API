@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #1D2D44;
+    height: 100vh;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+}
+    
+.div1 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 1 / 2 / 2;
+ }
+.div2 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 2 / 2 / 3; 
+}
+
+.div3 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 3 / 2 / 4; 
+}
+.div4 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 4 / 2 / 5; 
+}
+
+/*
+.con{
+    display: flex;
+    align-items: center;
+    border: solid 2px black;
+    height: 30%;
+    width: 50%;
+    border-radius: 5%;
+    background-image: url(../img/sllogo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+*/
+
+.con1{
+    display: flex;
+    background-color: #3E5C76;
+    background-image: url('../img/sl-logo.png');
+    background-repeat: round;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+.con2{
+    display: flex;
+    background-color: #3E5C76;
+    background-image: url('../img/bookicon.png');
+    background-repeat: round;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+.con3{
+    display: flex;
+    background-color: #3E5C76;
+    background-image: url('../img/weather-icon-logo.png');
+    background-repeat: round;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+.con4{
+    display: flex;
+    background-color: #3E5C76;
+    background-image: url('../img/calanderlogo-removebg-preview.png');
+    background-repeat: round;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+}

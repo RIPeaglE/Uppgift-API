@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #1D2D44;
+    height: 100vh;
+    color: white;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+a:link, a:visited {
+    background-color: #3E5C76;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px;
+    border-radius: 4px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+    
+#weatherInfo1 { grid-area: 1 / 1 / 2 / 2; }
+#weatherInfo2 { grid-area: 1 / 2 / 2 / 3; }
+
+
+#weatherInfo1{
+    display: flex;
+    justify-content: center;
+}
+
+#infoH{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#temp{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#placeInfo, #place, #placeSE {
+    display: inline;
+    font-size: 40px;
+}
+
+.info1Icon{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 40%;
+}
+
+
+#weatherDescription, #feelslike, #sky {
+    display: inline;
+    font-size: 30px;
+}
+
+#sky {
+    text-transform: capitalize;
+}
+
+#pressure {
+    display: flex;
+    font-size: 20px;
+}
+
+#humidity {
+    display: flex;
+    font-size: 20px;
+
+}
+
+#weatherInfo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+.weatherDaily{
+    display: flex;
+    align-items: center;
+}
+
+.weatherIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
